@@ -1,7 +1,7 @@
 
 <?php
 
-$db=mysqli_connect("localhost","root","","e_com");
+$db=mysqli_connect("localhost","root","Password1234","e_com");
 function getPro(){
 	global $db;
 	$get_product="select * from products order by 1 DESC LIMIT 0,6";

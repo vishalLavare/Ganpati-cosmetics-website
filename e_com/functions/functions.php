@@ -1,7 +1,7 @@
 
 <?php
 
-$db=mysqli_connect("localhost","root","","e_com");
+$db=mysqli_connect("localhost","root","Password1234","e_com");
 //for getting user ip start
 function getUserIp(){
 	switch (true) {
